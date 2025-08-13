@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-block-1">
+            <img class="menu-icon" src="images/icons/menu.png" alt="Menu bar">
+            <img class="logo-icon" src="images/icons/youtube-logo.png" alt="YouTube logo">
+        </div>
+
+        <div class="header-block-2">
+            <div class="search-block">
+                <input class="search-input" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img src="images/icons/search.png" alt="Search button">
+                </button>
+            </div>
+            <nav class="header-nav-block" aria-label="Main menu on the top of the page">
+                <ul class="header-nav-list">
+                    <li>
+                        <img src="images/icons/translation.png" alt="Start translation">
+                    </li>
+                    <li>
+                        <img src="images/icons/services.png" alt="Open services">
+                    </li>
+                    <li>
+                        <img src="images/icons/notifications.png" alt="View notifications">
+                    </li>
+                    <li class="userprofile-li">
+                        <img src="images/icons/usericon.png" alt="Go to user profile">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- ASIDE -->
+        <aside>
+            <!-- Main menu -->
+            <nav aria-label="Main menu">
+                <ul class="aside-menu-list main-menu-list">
+                    <li>
+                        <a href="#">
+                            <img class="menu-list-icon" src="images/icons/home.png" alt="Home">
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="menu-list-icon" src="images/icons/flame.png" alt="Flame">
+                            <p>Trending</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="menu-list-icon" src="images/icons/list.png" alt="List">
+                            <p>Subscriptions</p>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">
+                            <img class="menu-list-icon" src="images/icons/folder.png" alt="Folder">
+                            <p>Library</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="menu-list-icon" src="images/icons/history.png" alt="History">
+                            <p>History</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="menu-list-icon" src="images/icons/clock.png" alt="Clock">
+                            <p>Watch later</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="menu-list-icon" src="images/icons/star.png" alt="Star">
+                            <p>Favourites</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="menu-list-icon" src="images/icons/heart.png" alt="Heart">
+                            <p>Liked videos</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="menu-list-icon" src="images/icons/note.png" alt="Musical note">
+                            <p>Music</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="menu-list-icon" src="images/icons/controller.png" alt="Game controller">
+                            <p>Games</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="menu-list-icon" src="images/icons/menu-arrow-down.png" alt="Arrow down">
+                            <p>Show more</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Subscriptions list -->
+            <nav class="subscriptions-menu-nav" aria-labelledby="subscriptions-heading">
+                <h5 id="subscriptions-heading">Subscriptions</h5>
+                <ul class="subscriptions-menu-list">
+                    <li>
+                        <a href="#">
+                            <img class="subscriptions-avatar" src="images/avatars/subscriptions-avatars/avatar-1.jpg" alt="Channel avatar">
+                            <p>Gussie Singleton</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="subscriptions-avatar" src="images/avatars/subscriptions-avatars/avatar-2.jpg" alt="Channel avatar">
+                            <p>Nora Francis</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="subscriptions-avatar" src="images/avatars/subscriptions-avatars/avatar-3.jpg" alt="Channel avatar">
+                            <p>Belle Briggs</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="subscriptions-avatar" src="images/avatars/subscriptions-avatars/avatar-4.jpg" alt="Channel avatar">
+                            <p>Eunice Cortez</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="subscriptions-avatar" src="images/avatars/subscriptions-avatars/avatar-5.jpg" alt="Channel avatar">
+                            <p>Emma Hanson</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="subscriptions-avatar" src="images/avatars/subscriptions-avatars/avatar-6.jpg" alt="Channel avatar">
+                            <p>Leah Berry</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a class="setting">
+                <img class="menu-list-icon" src="images/icons/gear.png" alt="Gear">
+                <p>Setting</p>
+            </a>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <div id="wrapper">
+            <section class="section-channel carousel">
+                <div class="section-header" aria-labelledby="channel-name">
+                    <div class="section-header-info">
+                        <img src="images/avatars/avatar-dollie-blair.jpg" alt="Channel avatar">
+                        <h3 id="channel-name">Dollie Blair</h3>
+                    </div>
+
+                    <div class="section-header-btns-arrows">
+                        <button class="carousel__prev">
+                            <img src="images/icons/arrow-to-left.png" alt="Arrow to the left">
+                        </button>
+                        <button class="carousel__next">
+                            <img src="images/icons/arrow-to-left.png" alt="Arrow to the right">
+                        </button>
+                    </div>
+                </div>
+                <div class="section-body carousel__track">
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-1-img1">
+                            <p class="video-preview-duration">
+                                4:15
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                A Brief History Of Creation
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">80k views  ·  3 days ago</div>
+                                <div class="video-author">Dollie Blair</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-1-img2">
+                            <p class="video-preview-duration">
+                                8:00
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Selecting The Right Hotel
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">123k views  ·  1 months ago</div>
+                                <div class="video-author">Dollie Blair</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-1-img3">
+                            <p class="video-preview-duration">
+                                5:32
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Asteroids
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">43k views  ·  12 days ago</div>
+                                <div class="video-author">Dollie Blair</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-1-img4">
+                            <p class="video-preview-duration">
+                                6:40
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Telescopes 101
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">11k views  ·  6 months ago</div>
+                                <div class="video-author">Dollie Blair</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-1-img5">
+                            <p class="video-preview-duration">
+                                1:45
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Medical Care Is Just
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">18k views  ·  2 days ago</div>
+                                <div class="video-author">Dollie Blair</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-1-img6">
+                            <p class="video-preview-duration">
+                                2:12
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Moon Gazing
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">67k views  ·  4 months ago</div>
+                                <div class="video-author">Dollie Blair</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Recommended -->
+            <section class="recommended-videos carousel">
+                <div class="section-header" aria-labelledby="recommended-videos-title">
+                    <h3 id="recommended-videos channel-2-img-title">Recommended</h3>
+                    <div class="section-header-buttons">
+                        <div class="section-header-btns-arrows">
+                            <button class="carousel__prev">
+                                <img src="images/icons/arrow-to-left.png" alt="Arrow to the left">
+                            </button>
+                            <button class="carousel__next">
+                                <img src="images/icons/arrow-to-left.png" alt="Arrow to the right">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recommended-body carousel__track">
+                    <div class="video-body recommended-video">
+                        <div class="video-preview recommended-video-preview recommended-video-img1">
+                            <p class="video-preview-duration">
+                                3:40
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Dude You Re Getting A Telescope
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">34k views  ·  5 months ago</div>
+                                <div class="video-author">Gussie French</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-body recommended-video">
+                        <div class="video-preview recommended-video-preview recommended-video-img2">
+                            <p class="video-preview-duration">
+                                2:12
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Moon Gazing
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">54k views  ·  11 months ago</div>
+                                <div class="video-author">Edward Osborne</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-body recommended-video">
+                        <div class="video-preview recommended-video-preview recommended-video-img3">
+                            <p class="video-preview-duration">
+                                2:12
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Moon Gazing
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">125k views  ·  4 months ago</div>
+                                <div class="video-author">Dollie Blair</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Bottom channel -->
+            <section class="section-channel carousel">
+                <div class="section-header">
+                    <div class="section-header-info">
+                        <img src="images/avatars/avatar-food-and-drinks.jpg" alt="Channel avatar">
+                        <h3>Food & Drink</h3>
+                        <p class="channel-recommended">Recommended channel for you</p>
+                    </div>
+
+                    <div class="section-header-buttons">
+                        <button class="section-header-btns-subscribe">Subscribe 2.3m</button>
+                        <div class="section-header-btns-arrows">
+                            <button class="carousel__prev">
+                                <img src="images/icons/arrow-to-left.png" alt="Arrow to the left">
+                            </button>
+                            <button class="carousel__next">
+                                <img src="images/icons/arrow-to-left.png" alt="Arrow to the right">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-body carousel__track">
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-2-img1">
+                            <p class="video-preview-duration">
+                                4:15
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Astronomy Or Astrology
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">240k views  ·  4 months ago</div>
+                                <div class="video-author">Food & Drink</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-2-img2">
+                            <p class="video-preview-duration">
+                                8:00
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Advertising Outdoors
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">13k views  ·  15 days ago</div>
+                                <div class="video-author">Food & Drink</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-2-img3">
+                            <p class="video-preview-duration">
+                                5:32
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Radio Astronomy
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">1k views  ·  11 months ago</div>
+                                <div class="video-author">Food & Drink</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-2-img4">
+                            <p class="video-preview-duration">
+                                6:40
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                A Good Autoresponder
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">45k views  ·  2 months ago</div>
+                                <div class="video-author">Food & Drink</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-2-img5">
+                            <p class="video-preview-duration">
+                                1:45
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Baby Monitor Technology
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">86k views  ·  7 days ago</div>
+                                <div class="video-author">Food & Drink</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-body section-video">
+                        <div class="video-preview section-video-preview channel-2-img6">
+                            <p class="video-preview-duration">
+                                2:12
+                            </p>
+                        </div>
+                        <div class="section-video-info">
+                            <h5 class="video-info-title">
+                                Asteroids
+                            </h5>
+                            <div class="video-info-main">
+                                <div class="video-views">123k views  ·  4 months ago</div>
+                                <div class="video-author">Food & Drink</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script>
+        document.querySelectorAll('.carousel').forEach(carousel => {
+            const track = carousel.querySelector('.carousel__track');
+            const prevBtn = carousel.querySelector('.carousel__prev');
+            const nextBtn = carousel.querySelector('.carousel__next');
+            
+            // Вычисляем реальный gap из CSS
+            const trackStyles = window.getComputedStyle(track);
+            const gap = parseFloat(trackStyles.gap) || 0;
+            
+            // Берем ширину первой карточки в текущей карусели
+            const firstCard = track.querySelector('.video-body');
+            if (!firstCard) return;
+            
+            const cardWidth = firstCard.offsetWidth;
+            const step = cardWidth + gap;
+
+            prevBtn.addEventListener('click', () => {
+            track.scrollBy({ left: -step, behavior: 'smooth' });
+            });
+            
+            nextBtn.addEventListener('click', () => {
+            track.scrollBy({ left: step, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
